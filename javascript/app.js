@@ -9,11 +9,11 @@ while (i < 10) {
   i++;
 }
 //III
-let I = 0;
+let k = 0;
 do {
-  console.log(I);
-  i++;
-} while (I < 15);
+  console.log(k);
+  k++;
+} while (k < 15);
 //IV
 const numbers = [23, 44, 123, 234, 765, 1023, 2368];
 for (let i = 0; i < numbers.length; i++) {
@@ -22,28 +22,29 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 //V
-const currentDay = newdate().getDay();
+const currentDay = new Date().getDay();
 let day;
 switch (currentDay) {
   case 0:
-    day: "Sunday";
-    brake;
+    day = "Sunday";
+    break;
   case 1:
-    day: "Monday ";
-    brake;
+    day = "Monday ";
+    break;
   case 2:
-    day: "Tuesday ";
-    brake;
+    day = "Tuesday ";
+    break;
   case 3:
-    day: "Wednesday ";
-    brake;
+    day = "Wednesday ";
+    break;
   case 4:
-    day: "Thursday ";
-    brake;
+    day = "Thursday ";
+    break;
   case 5:
-    day: "Friday ";
-    brake;
+    day = "Friday ";
+    break;
   case 6:
-    day: "Saturday ";
-    brake;
+    day = "Saturday ";
+    break;
 }
+console.log(day);
