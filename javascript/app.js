@@ -21,3 +21,29 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
   }
 }
+//V
+const currentDay = newdate().getDay();
+let day;
+switch (currentDay) {
+  case 0:
+    day: "Sunday";
+    brake;
+  case 1:
+    day: "Monday ";
+    brake;
+  case 2:
+    day: "Tuesday ";
+    brake;
+  case 3:
+    day: "Wednesday ";
+    brake;
+  case 4:
+    day: "Thursday ";
+    brake;
+  case 5:
+    day: "Friday ";
+    brake;
+  case 6:
+    day: "Saturday ";
+    brake;
+}
